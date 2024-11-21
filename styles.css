@@ -1,0 +1,181 @@
+/* One media query is needed to pass */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+
+
+/* * {
+    border: solid black 2px;
+} */
+/* https://pinterest.com/pin/693413673868624035/ */
+/* 1. Use a more-intuitive box-sizing model */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* 2. Remove default margin */
+  * {
+    margin: 0;
+  }
+  
+  body {
+    /* 3. Add accessible line-height */
+    line-height: 1.5;
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* 5. Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* 6. Inherit fonts for form controls */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* 7. Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /* 8. Improve line wrapping */
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+#navbar{
+    
+    position: fixed;
+    top: 0px;
+    float: left;
+    width: 300px;
+    height: 100%;
+    background-color: #B6D8F2;
+    border-right: solid 10px #5784BA;;
+    
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 100%;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    
+
+
+}
+p {
+    margin-block: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:#204a7d;
+}
+
+.THE-nav-bar ul {
+    padding: 0;
+}
+.THE-nav-bar li {
+    font-size:1.25rem;
+    
+}
+.THE-nav-bar li:hover {
+ background-color: beige;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    padding-inline: 25px;
+}
+
+@media (max-width: 600px){
+    main{
+        
+        margin-left: 0;
+        padding-left: 0;
+        
+    }
+    #navbar{
+        width:200px;
+        
+    }
+    
+    
+
+}
+code {
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding:10px;
+    
+}
+main{
+    margin-block: 4em;
+    margin-left: 350px; /*this matches the nav bar width plus a gap of 50px*/
+    margin-right:50px;
+}
+
+h1, h2{
+    font-family: "Hanuman", serif;
+    font-weight: 900;
+    font-style: normal;
+    color:#5784BA;
+}
+h1 {
+    font-size: 3rem;
+    display:block;
+    margin-inline: auto;
+    flex: 0;
+    text-align: center;
+    line-height: 1.1;
+    
+}
+h2 {
+    margin-top: 40px;
+}
+
+p, li, a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+strong {
+    font-weight: 600;
+    color: #5784BA;
+}
+
+
+nav li {
+    list-style: none;
+}
+
+li {
+    list-style:circle;
+}

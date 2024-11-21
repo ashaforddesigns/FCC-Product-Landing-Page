@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanuman:wght@100;300;400;700;900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<title>All About Python!</title>
+</head>
+<!--example here: https://technical-documentation-page.freecodecamp.rocks/#Introduction-->
+<body>
+    <!--Float left and always visible on the page-->   
+        <nav id="navbar">   
+            <header>
+                <h1>All About Python</h1>
+                <ul class="THE-nav-bar">
+                    <li><a class="nav-link" href="#introduction_to_python">Introduction to Python</a></li> 
+                    <li><a class="nav-link" href="#Why_Learn_Python?">Why Learn Python?</a></li> 
+                    <li><a class="nav-link" href="#Python_Basics">Python Basics</a></li> 
+                    <li><a class="nav-link" href="#Advanced_Python_Concepts">Advanced Python Concepts</a></li> 
+                    <li><a class="nav-link" href="#Python_in_the_Real_World">Python in the Real World</a></li> 
+                    
+                </ul>
+    </header>
+    </nav>
+      
+
+    <main id="main-doc">
+        <section class="main-section" id="introduction_to_python"> <!--ID's must have names that relate to the headers (use underscores)-->
+            <header>
+                <h2>Introduction to Python</h2>
+            </header>
+            <!--You need 10 paragraphs total and 5 <code> areas and 5 <li> (not each)-->
+                <p>Python is a popular programming language known for its simplicity and versatility. Developed by Guido van Rossum in the late 1980s, Python has grown to become one of the most widely used programming languages across various industries.</p>
+                <p>Python offers dynamic typing, simple syntax, and readability. It supports multiple programming paradigms, including object-oriented, procedural, and functional programming, making it flexible for various use cases.</p>
+                <code>
+                     # Basic Python program
+                    print("Hello, Python!")
+                </code>
+        </section>    
+
+        <section class="main-section" id="Why_Learn_Python">
+            <header>
+                <h2>Why Learn Python?</h2>
+            </header>
+            <ul>
+                <li><strong>Easy to Learn:</strong> Python’s simple syntax makes it beginner-friendly, allowing new programmers to start building projects quickly.</li>
+                <li><strong>High Demand:</strong> Python skills are highly sought-after in fields like web development, data science, machine learning, and AI.</li>
+                <li><strong>Versatile Applications:</strong> From automating tasks to building apps, Python’s vast libraries support almost any type of project.</li>
+                <li><strong>Strong Community Support:</strong> Python has a massive, supportive community and extensive documentation to help you learn and troubleshoot.</li>
+                <li><strong>Future-Proof Language:</strong> Python continues to grow in popularity, making it a great investment for long-term career opportunities.</li>
+              </ul>              
+            <p>Python is used in diverse fields such as web development, data science, artificial intelligence, machine learning, and automation. Its extensive libraries and frameworks contribute to its success and popularity in each of these domains.</p>
+
+            <p>Installing Python is straightforward and can be done on multiple operating systems. Python's official website provides installers for Windows, macOS, and Linux, making it accessible to developers worldwide.</p>
+            <code>
+                # Variables and basic arithmetic
+                a = 5
+                b = 3
+                sum_result = a + b
+                print("Sum:", sum_result)
+           </code>
+        </section>    
+
+        <section class="main-section" id="Python_Basics">
+            <header>
+                <h2>Python Basics</h2>
+            </header>
+            <p>Python's syntax is designed to be clean and readable. For example, indentation is critical in Python, as it helps define code blocks instead of using braces {}.</p>
+
+            <p>Python supports several data types, including integers, floats, strings, and lists. Declaring variables in Python is simple, and you don’t need to specify the data type explicitly.</p>
+            <code>
+                # Working with a list and a dictionary
+                fruits = ["apple", "banana", "cherry"]
+                fruit_colors = {"apple": "red", "banana": "yellow", "cherry": "red"}
+
+                # Accessing elements
+                print(fruits[0])         # Output: apple
+                print(fruit_colors["banana"])  # Output: yellow
+           </code>
+        </section>    
+
+        <section class="main-section" id="Advanced_Python_Concepts">
+            <header>
+                <h2>Advanced Python Concepts</h2>
+            </header>
+            <p>Control flow statements like if, for, and while enable developers to create logic-driven programs. These structures allow Python programs to make decisions and repeat actions based on conditions.</p>
+
+            <p>Functions are essential building blocks in Python. They enable code reusability and help break down complex problems into smaller, manageable parts. A simple function in Python can be defined using the def keyword.</p>
+            <code>
+                # Using a for loop and an if statement
+                numbers = [1, 2, 3, 4, 5]
+                for num in numbers:
+                    if num % 2 == 0:
+                        print(f"{num} is even")
+                    else:
+                        print(f"{num} is odd")
+           </code>
+        </section>    
+
+        <section class="main-section" id="Python_in_the_Real_World">
+            <header>
+                <h2>Python in the Real World</h2>
+            </header>
+            <p>Python supports object-oriented programming (OOP), which allows developers to model real-world entities using classes and objects. Concepts like inheritance, encapsulation, and polymorphism are integral to Python’s OOP capabilities.</p>
+
+            <p>Python’s rich ecosystem includes libraries like pandas for data manipulation, NumPy for numerical computations, and Django for web development. These libraries extend Python's functionality and make it suitable for specialized tasks.</p>
+            <code>
+                # Defining and using a function
+                def greet(name):
+                    return f"Hello, {name}!"
+
+                print(greet("Python"))
+           </code>
+        </section>    
+</main>
+</body>
+</html>
